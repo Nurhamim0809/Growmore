@@ -1,0 +1,115 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    background-color: #bccedf;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    color: #087449;
+    font-size: 2.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #087449;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+
+main {
+    padding: 50px 20px;
+    background-color: #d6dada;
+}
+
+.products {
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background-color: rgb(254, 254, 254);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 220px;
+    padding: 15px;
+    text-align:center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    
+
+
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #27ae60;
+    margin-bottom: 15px;
+}
+
+.product button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.product button:hover {
+    background-color: #2ecc71;
+}
+
+
+footer {
+    background-color: #bccedf;
+    color: #087449 ;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
